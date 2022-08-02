@@ -1,0 +1,237 @@
+{
+  "settings": {
+    "name": "ECG Verification",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#0a0a0a"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.6.11",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/ecg-circle-logo-800-800-px-transparent-128x128.png",
+    "imageResize": true,
+    "mbrsiteDomain": "doaifws5ou",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 5,
+    "versionPublish": "5.6.11",
+    "screenshot": "screenshot.png",
+    "cssOptimize": false,
+    "lazyLoad": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "ECG Verification Form",
+        "meta_descr": "Click on this link to verify your identity and get started with the East Coast Gaming Discord community!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/ecg-banner.png"
+      },
+      "components": [
+        {
+          "_name": "aform1",
+          "_sourceTheme": "urgem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Form\" plugins=\"formstyler, datepicker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/ecg%20logo-575x599.png\">\n            <input type=\"color\" title=\"Color\" value=\"#0A0A0A\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0A0A0A\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12\">\n                <div class=\"content-container\">\n                    <img src=\"@PROJECT_PATH@/assets/images/ecg-circle-logo-800-800-px-transparent-432x432.png\" alt style=\"height:30%; width: 30%; margin:auto;\"><br><br>\n                    <div class=\"title-container\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                        <h5 class=\"main-title mbr-fonts-style align-center mb-0\" mbr-if=\"showMainTitle\" data-app-selector=\".main-title\" mbr-theme-style=\"display-2\"><b>Getting Started</b></h5>\n                        <h6 class=\"main-subtitle mbr-fonts-style align-center mb-0\" mbr-if=\"showMainSubtitle\" data-app-selector=\".main-subtitle\" mbr-theme-style=\"display-4\">How exciting! You have taken your first step towards becoming a member of a community of like-minded board game and role-playing game players and enthusiasts dedicated to creating a fun, safe environment for gamers of all types.<div><br></div><div>East Coast Gamers provides a positive, welcoming, encouraging and respectful community for gamers and game lovers of all walks of life. As such, toxic behavior and negativity are not tolerated here.</div><div><br></div><div>Please review and affirm the your read, understand and agree to the standards and community guidelines. Upon submission of this form, you will be instantly granted access to our Discord server community!&nbsp;</div><div><br></div><div>We can't wait to welcome you to the tribe!!!</div></h6>\n                    </div>\n\n                    <div mbr-form class=\"col-12 mbr-form form-container card-border\">\n<!--Formbuilder Form-->\n<form action name=\"ECG Verification\" method=\"POST\" class=\"mbr-form form-with-styler mx-auto\">\n<div class>\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\"> Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> Oops...! some problem! </div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12\">\n<p mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" class=\"card-title mbr-fonts-style align-left mb-0\"> Fill the form and we will reply in a few hours </p>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style display-5 form-title\"> First, tell us about yourself </h5>\n</div>\n<div data-for=\"name\" class=\"col-12 col-md-6 form-group mb-3\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"name\" class=\"form-control-label mbr-fonts-style\">FIRST NAME*</label>\n<input type=\"text\" name=\"name\" placeholder=\"John\" data-form-field=\"name\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"email\" class=\"col-12 col-md-6 form-group mb-3\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\">LAST NAME*</label>\n<input type=\"email\" name=\"email\" placeholder=\"Doe\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"location\" class=\"col-12 col-md-6 form-group mb-3\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"location\" class=\"form-control-label mbr-fonts-style\">ADDRESS (optional)</label>\n<input type=\"text\" name=\"location\" placeholder=\"City, Country\" data-form-field=\"location\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"company\" class=\"col-12 col-md-6 form-group mb-3\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"company\" class=\"form-control-label mbr-fonts-style\">EMAIL*</label>\n<input type=\"text\" name=\"company\" placeholder=\"johndoe@gmail.com\" data-form-field=\"company\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-6 col-md-12 col-sm-12 form-group\" data-for=\"birthday\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"birthday\" class=\"form-control-label mbr-fonts-style\">BIRTHDAY (optional)</label>\n<input type=\"text\" name=\"birthday\" placeholder=\"07/25/22\" data-form-field=\"birthday\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"text\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"text\" class=\"form-control-label mbr-fonts-style\">PHONE*</label>\n<input type=\"text\" name=\"text\" placeholder=\"(587) 743 - 0814\" data-form-field=\"text\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\" style>\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style display-5 form-title\">Additional Information</h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"handle\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"handle\" class=\"form-control-label mbr-fonts-style\">DISCORD HANDLE*</label>\n<input type=\"text\" name=\"handle\" placeholder=\"somebody#3485\" data-form-field=\"handle\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div data-for=\"referral\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"referral\" class=\"form-control-label mbr-fonts-style\">How did you find out about us?</label>\n<select name=\"referral\" data-form-field=\"referral\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option value=\"None\">None</option>\n<option value=\"Twitch\">Twitch</option>\n<option value=\"YouTube\">YouTube</option>\n<option value=\"Advertisement\">Advertisement</option>\n<option value=\"Heard about it from someone else\">Heard about it from someone else</option>\n</select>\n</div>\n<div data-for=\"textarea\" class=\"col-12 col-md-12 form-group mb-3\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"textarea\" class=\"form-control-label mbr-fonts-style\">MESSAGE</label>\n<textarea name=\"textarea\" placeholder=\"Anything else you'd like to add?\" data-form-field=\"textarea\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\">Community Guidelines</h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\"><b>Be Respectful</b> - This is a safe space for all humans of all walks of life. Be kind and courteous to all.<br><br><b>Be Kind</b> - This keeps the vibe high and positive. We are not a debate stage or a locker room.<br><br><b>Show Up and Have Fun!</b> - This is your personal oasis of fun! Come often and make new friends!<br><br><b>Read and adhere to the Server Rules</b> once you've been granted access to the community</p>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"checkbox\" class=\"mbr-fonts-style\">\n</label>\n</div>\n<div data-for=\"I have read and agree to each of the community guidelines listed above.\" class=\"form-check ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"I have read and agree to each of the community guidelines listed above.\" data-form-field=\"I have read and agree to each of the community guidelines listed above.\" mbr-theme-style=\"display-7\" class=\"form-check-input\" required=\"required\">\n<label mbr-text for=\"I have read and agree to each of the community guidelines listed above.\" mbr-theme-style=\"display-7\" class=\"form-check-label\">I have read and agree to each of the community guidelines listed above.</label>\n</div>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-auto mbr-section-btn align-center\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-white\">SUBMIT</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "align-items": "center",
+              "width": "100%"
+            },
+            ".content-container": {
+              "max-width": "720px",
+              "padding": "0",
+              "margin-right": "auto",
+              "margin-left": "auto"
+            },
+            ".title-container": {
+              "width": "100%",
+              "padding": "0 !important",
+              "margin-bottom": "40px",
+              "@media (max-width: 767px)": {}
+            },
+            ".title-text": {
+              "width": "100%"
+            },
+            ".main-title": {
+              "color": "#ffffff"
+            },
+            ".main-subtitle": {
+              "margin-top": "24px",
+              "color": "#ffffff"
+            },
+            "form": {
+              ".dragArea.row": {
+                "justify-content": "flex-start",
+                "width": "auto !important"
+              },
+              "h1, h2, h3, h4, h5, h6": {
+                "color": "#ffffff",
+                "margin-top": "32px",
+                "margin-bottom": "56px",
+                "padding-top": "64px",
+                "& when (@showBorder)": {
+                  "border-top": "1px solid hsla(0, 0%, 100%, 0.15)"
+                },
+                "text-align": "center",
+                "@media (max-width: 767px)": {
+                  "margin-top": "24px",
+                  "padding-top": "56px"
+                }
+              },
+              "p": {
+                "color": "#ffffff"
+              },
+              ".mbr-section-btn": {
+                "margin-top": "20px",
+                "text-align": "center",
+                "justify-content": "center",
+                "margin-left": "auto",
+                "margin-right": "auto",
+                ".btn": {
+                  "width": "max-content",
+                  "min-width": "120px"
+                }
+              },
+              ".form-group": {
+                "margin-top": "0 !important",
+                "margin-bottom": "28px !important"
+              },
+              ".form-control": {
+                "border": "2px solid rgba(255, 255, 255, 0.05) !important",
+                "background-color": "hsla(0, 0%, 100%, 0.05)",
+                "box-shadow": "none !important",
+                "border-radius": "8px !important",
+                "margin-bottom": "0",
+                "padding": "8px 12px",
+                "font-size": "16px",
+                "line-height": "24px",
+                "color": "#ffffff",
+                "font-weight": "400",
+                "&::-webkit-input-placeholder": {
+                  "color": "#d8d5d1"
+                },
+                "&::-moz-placeholder": {
+                  "color": "#d8d5d1"
+                },
+                "&:-moz-placeholder": {
+                  "color": "#d8d5d1"
+                },
+                "&:-ms-input-placeholder": {
+                  "color": "#d8d5d1"
+                }
+              },
+              "select": {
+                "color": "#ffffff !important"
+              },
+              "textarea": {
+                "height": "160px"
+              },
+              "input, textarea": {
+                "&:active, &:focus": {
+                  "background-color": "#0A0A0A !important",
+                  "border-color": "#ffffff !important",
+                  "&::-webkit-input-placeholder": {
+                    "color": "#d8d5d1"
+                  },
+                  "&::-moz-placeholder": {
+                    "color": "#d8d5d1"
+                  },
+                  "&:-moz-placeholder": {
+                    "color": "#d8d5d1"
+                  },
+                  "&:-ms-input-placeholder": {
+                    "color": "#d8d5d1"
+                  }
+                }
+              },
+              ".row": {
+                "margin-left": "-12px !important",
+                "margin-right": "-12px !important"
+              },
+              ".row [class*=col]": {
+                "padding-left": "12px !important",
+                "padding-right": "12px !important"
+              },
+              "label": {
+                "width": "100%",
+                "color": "#ffffff",
+                "margin-bottom": "12px"
+              },
+              ".form-check-input": {
+                "border-color": "rgba(255, 255, 255, 0.25) !important",
+                "outline": "none !important",
+                "box-shadow": "none !important",
+                "background-color": "transparent !important",
+                "&:focus, &:hover": {
+                  "border-color": "#ffffff !important"
+                }
+              },
+              ".form-check-input:checked": {
+                "border-color": "#ffffff !important"
+              }
+            }
+          },
+          "_cid": "tdnWVkRl2m",
+          "_anchor": "aform1-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
